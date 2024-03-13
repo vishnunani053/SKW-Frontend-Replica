@@ -1,0 +1,403 @@
+@media only screen and (max-width: 1200px) {
+    /* Styles for screens up to 1200px wide */
+  
+    .logo {
+      width: 200px;
+      height: 60px;
+      margin-left: 2px;
+    }
+  
+    .bodyContainer {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .imgMain {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .bodyImg {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .nameContainer {
+      width: 100%;
+      padding-inline: 20px;
+    }
+    .hireButtonContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 0;
+    }
+  
+    /* ... (adjust other styles as needed) */
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for screens up to 768px wide (tablets) */
+  
+.footer{
+  padding-inline: 0rem;
+}
+.forContainerPadding {
+  padding-inline: 0rem;
+}
+
+.getFinancial{
+  padding:2rem 0rem 0rem 0rem;
+}
+.getFinancial h1{
+  text-align: center;
+}
+.getFinancial h2{
+  font-size: 26px;
+}
+
+    .logo {
+      width: 200px;
+      height: 60px;
+      margin-left: 2px;
+    }
+  
+    .nameContainer h1 {
+      font-size: 3rem !important;
+      text-align: center;
+    }
+    .hireButtonContainer {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 1rem;
+    }
+  
+    .hireButton {
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #30344d;
+      color: white;
+      font-size: 22px;
+      font-family: sans-serif;
+      border-radius: 50px;
+      border-color: #e99004;
+      border-width: 8px;
+      padding: 8px;
+      margin-top: 10x;
+      white-space: nowrap;
+    }
+  
+    .hireButton:hover {
+      background-color: white;
+      color: black;
+    }
+    .download {
+      width: 80%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 40px;
+    }
+  
+    .offerContainer {
+      background-color: #e9e9e9;
+      padding: 10px;
+    }
+  
+    .offerContainer center h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #30344d;
+    }
+    .termImagesContainer {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: space-between;
+      margin: 15px 15px;
+    }
+  
+    .termNameContainer h1 {
+      font-size: 25px;
+      font-weight: bold;
+      color: #30344d;
+      text-align: center;
+    }
+  
+    .termImages:hover {
+      background-color: orange;
+    }
+  
+    .tradeMainContainer {
+      background-color: #172147;
+      padding: 50px;
+    }
+    .whyTraders h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+    }
+  
+    .tradeImagesContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-inline: auto;
+      padding-top: 0px;
+      margin: 0px 0px;
+    }
+  
+    .tradeSubContainet {
+      border-color: #ffffff;
+      border-radius: 5px;
+      border-width: 2px;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2px;
+      width: 600px;
+      height: 200px;
+      margin: 1rem 0px;
+    }
+  
+    .tradeImages {
+      background-color: white;
+      width: 100px;
+    }
+    .tradeFont {
+      font-size: 15px;
+      color: #000000;
+      text-align: center;
+    }
+    .mainHowWorksContainer {
+      padding: 1.5rem;
+    }
+  
+    .howHeader h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #30344d;
+      text-align: center;
+    }
+  
+    .howWorksImgcontainer {
+      gap: 2rem !important;
+      padding-top: 1rem;
+      margin-inline: 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    .howImgSubContainer {
+      border-color: #000000;
+      border-radius: 5px;
+      border-width: 1px;
+      background: #ffffff;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      /* max-width: 50%; */
+      width: 40%;
+      flex-wrap: wrap;
+      max-height: auto;
+    }
+  
+    .howImages {
+      width: 400px;
+    }
+    .howWorkFont {
+      font-size: 20px;
+      font-weight: bold;
+      color: #30344d;
+      text-align: center;
+    }
+  
+    .howWorkFont:hover {
+      color: #e99004;
+    }
+  
+    .formMainContainer {
+      width: 100%;
+      margin: auto;
+      display: block;
+      padding: 0.5rem;
+    }
+  
+    .disclamiar h1 {
+      font-weight: bold;
+      font-size: 25px;
+      padding: 15px;
+      text-align: center;
+    }
+  
+    .disclamiar p {
+      padding-inline: 40px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .aboutBreadCrumb {
+      padding: 3rem 0rem;
+    }
+.researchForPadding{
+  padding-inline: 0;
+}
+
+.tradingPrinciplebg{
+padding-inline: 0;
+}
+
+    .aboutContainer {
+      padding-inline: 3rem;
+    }
+    .carousel .slide img{
+      display: none;
+    }
+    
+   
+
+    .formcontainer {
+      border-color: #ffffff;
+      box-shadow: 2px 2px 5px 5px #ddd8d8;
+      border-radius: 1px;
+      border-width: 2px;
+      padding: 1rem;
+    }
+    .overviewHeading h5 {
+      padding-top: 0; 
+       }
+  
+       
+       .listContainer {
+        padding-top: 2rem;
+    }
+
+    .form-select {
+      color: #515151;
+      font-size: 20px;
+      font-family: 'madurai';
+      padding: 1rem;
+  }
+  .form-control {
+    padding: 1rem;
+    font-family: 'madurai';
+    font-size: 20px;
+  }
+  input, input::placeholder {
+    font-size: 20px;
+    font-family: "Arima Madurai sans-serif";
+  }
+  .form-select {
+    color: #515151;
+    font-size: 1rem;
+
+}
+.researchMainContainer {
+  padding:3rem 3rem;
+}
+
+
+.tradingPrinciples {
+  background: #f2f2f2;
+  padding: 3rem 3rem;
+}
+.coloumnsforTablet{
+  width: 100%;
+}
+.equityMainContainer {
+  padding: 0rem 3rem;
+}
+.coloums {
+width: 50%;
+}
+.titleofInvestment {
+  padding: 0rem 3rem;
+}
+.outdatedContainer {
+  padding: 0rem 3rem;
+}
+
+.MainMagicContainer {
+  padding: 0.5rem 3rem;
+}
+.rpmMainContainer {
+  margin: 3rem 3rem;
+}
+.annualMainContainer {
+  padding: 2rem 3rem;
+}
+.complaintFormContainer {
+  margin: 1rem 3rem;
+  padding: 1rem rem;
+ 
+}
+
+.joiningContainer {
+  padding: 2.5rem 3rem;
+}
+.step2Container {
+  padding: 3rem 3rem;
+  border-bottom: #000000 1px solid;
+}
+.step3Container {
+  padding: 2rem 3rem;
+  border-bottom: #000000 1px solid;
+}
+.faqContainer {
+  padding: 1rem 2rem;
+}
+.blogContainer {
+  margin-inline: 1rem;
+}
+.carrersContainer {
+  padding: 0rem 3rem;
+}
+.careerTableContainer{
+  margin: 2rem 1.5rem;
+}
+.moreMainContainer {
+  padding: 0.5rem 3rem;
+}
+.complaintScorebtns {
+  padding: 1.5rem 3rem;
+}
+.bankDetailsContainer {
+  padding: 2rem 3rem;
+}
+
+.discalimerContainer {
+  padding: 2.5rem 3rem;
+}
+.capitalRiskTitle {
+  padding: 1.5rem 3rem;
+ 
+}
+.contactContainer {
+  padding: 1rem 3rem;
+}
+
+.forShadow {
+  padding: 2rem;
+  margin-inline: 1rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+  }

@@ -1,0 +1,50 @@
+'use client';
+import React from 'react'
+import { Row, Col, Container } from 'reactstrap';
+import FormComponent from '@/components/FormComponent/FormComponent';
+import FooterPage from '@/components/Footer/Footer';
+import Disclaimer from '@/components/Disclaimer/Disclaimer';
+
+
+const DisclaimerPage = () => {
+  const tag = 'F-DISCLAIMER'
+  return (
+    <div>
+        <Container>
+      <div className='forContainerPadding'>
+          <div className='disclaimerTitle'>
+            <h1>Disclaimer</h1>
+            <div style={{ alignItems: 'left', display: 'flex', justifyContent: 'left' }}>
+              <div style={{ borderColor: '#3fa005', borderWidth: '3px', borderRadius: '5px', width: '40px', marginBottom: '2rem', marginLeft: '1px' }}></div>
+            </div>
+            <p>The trading tips recommended are purely a view point of a group of individuals and there is no assurance or guarantee of return is provided on the same. Hence all the visitors are requested to apply their prudence and judge accordingly before acting on any of the recommendations provided on this site or any other mode or platform provided by the company. Neither SKWINVESTMENTADVISER nor any of its promoters, members, or employees holds any responsibility for any losses incurred (if any) by acting as per the recommendations provided. All data and reports at SKWINVESTMENTADVISER are only information services for subscribers and are not individualized recommendations to buy or sell securities, nor offers to buy or sell securities. Under any circumstances the subscription amount paid to SKWINVESTMENTADVISER are not refundable. Investment in equity shares has its own risks. Sincere efforts have been made to present the right investment perspective. The information contained herein is based on analysis and on sources that we consider reliable. We, however, do not vouch for the accuracy or the completeness thereof. This material is for personal information and we are not responsible for any loss incurred due to it & take no responsibility whatsoever for any financial profits or loss which may arise from the recommendations above. Investments or trading in any of the security markets is subject to market risks and there is no assurance or guarantee that the objectives of the product or services will be achieved. The name of the product or service does not in any manner indicate either the quality of the product or their future prospects and returns. Past performance of any services or products suggests is not an indicative of the future performance of the services or product.</p>
+            <p>SKWINVESTMENTADVISER is not responsible or liable for any loss resulting from any investment advice. Investment or trading in any security or capital market involves certain risk such as varying trading volume, settlement risk, liquidity risk, default risk, general market risks which leads to possible erosion of capital. All calls/ recommendation are purely based on technical and fundamental research. We not only try to maintain our accuracy but constantly try to enhance it to the best of our ability, but we never provide any kind of assurances on the return/guarantee over accuracy of any product/services. Neither SKWINVESTMENTADVISER nor any of its representatives can provide any surety about the accuracy of any services because of the simple nature of the stock market comprising of many risks already stated above. SKWINVESTMENTADVISER offers Free Trials of the product/service to the prospective client. These free trials are meant only for observation and to check the various aspect of the quality of the recommendations, and in no way suggest the guarantee regarding accuracy of the tips. It is highly recommended to the prospective client to not trade on Free Trials of the services. If any prospect trades on free trials and incur profit/loss then SKWINVESTMENTADVISER won’t be responsible for any of the aforementioned outcomes. This Website is meant to provide only information to all the visitors. The information contained on this website should not be construed as an offer to sell, a solicitation of an offer to buy, or a recommendation for the units of the schemes of SKWINVESTMENTADVISER. SKWINVESTMENTADVISER is neither responsible nor liable for third party content provided or content from any other aspect of any other Website, which may be accessed from this Website. Our Clients (Paid or Unpaid), any third party or anyone else have no rights to forward or share our calls or SMS or reports or any information provided by us to/with anyone which can be received directly or indirectly by them. If found so then Serious Legal Actions can be taken against that concerned person/s. The content of the site and the interpretation of data are solely the personal views of the contributors. SKWINVESTMENTADVISER reserves the right to make modifications and alterations to the content of the website. Users are advised to use the data for the purpose of information only and rely on their own judgment while making investment decisions. SKWINVESTMENTADVISER does not warranty the timeliness, accuracy or quality of the electronic content. A possibility exists that the site could include inaccuracies or errors. Additionally, a possibility exist that unauthorized additions, deletions or alterations could be made by third parties to the site. Although SKWINVESTMENTADVISER attempts to ensure the integrity, correctness and authenticity of the site, it makes no guarantees whatsoever as to its completeness, correctness or accuracy. In the event, that such an inaccuracy arises, please inform to SKWINVESTMENTADVISER so that it can be corrected. The price and value of investments and the income derived from them can go up or down (as the case may be) and you may not get back the capital invested. Changes in the rate of exchange may have an adverse effect on the value, price and income of investments in deposits other than your own. Past performance is not necessarily an indicator of future performance. The content of the website cannot be copied, reproduced, republished, uploaded, posted, transmitted or distributed for any non-personal use without obtaining prior permission from SKWINVESTMENTADVISER. We reserve the right to terminate the accounts of subscribers/customers, who violate the proprietary rights, in addition to necessary legal action.  SKWINVESTMENTADVISER and its owners/affiliates are not liable for damages caused by any performance, failure of performance, error, omission, interruption, deletion, defect, delay in transmission or operations, computer virus, communications line failure, and unauthorized access to the personal accounts. SKWINVESTMENTADVISER is not responsible for any technical failure or malfunction of the software or delays of any kind. We are also not responsible for non-receipt of registration details or e-mails. SKWINVESTMENTADVISER is not responsible for the content of any of the linked sites. By providing access to other web-sites, SKWINVESTMENTADVISER is neither recommending nor endorsing the content available in the linked websites. You agree that the information gathered from your profile will be used to enhance your experience on the website. We will not rent or sell the profile to any third party. This website is for the exclusive purpose of transactions to be carried out within the territorial jurisdiction of India and all such transactions shall be governed by the laws in India. Notice is hereby given that Non Resident Indians (NRI’s) and Foreign Nationals accessing this web site and opting to transact thereon shall do so after due verification at their end of their eligibility to do so. SKWINVESTMENTADVISER undertakes no responsibility for such pre-eligibility of qualification on part of Non-Resident Indians (NRI’s) or Foreign Nationals to transact on this website. You understand and agree that no joint venture, partnership, employment or agency relationship exists between you and SKWINVESTMENTADVISER as a result of this agreement or on account of use of our web site.</p>
+            <p>Price and availability of products and services offered on the site are subject to change without prior notice. We provide information about the availability of products or services to a certain extent but you should not rely on such information. SKWINVESTMENTADVISER will not be liable for any lack of availability of products and services you may order through the site. After product services delivery of 72 hrs (as per the service invoice end date), then after we would not taking any consideration for any claim of services dispute or any other dispute against SKWINVESTMENTADVISER.</p>
+            <p>Governing Law</p>
+            <p>Transactions between you and SKWINVESTMENTADVISER shall be governed by and construed in accordance with the laws of India, without regard to the laws regarding conflicts of law. Any litigation regarding this agreement or any transaction between customer and SKWINVESTMENTADVISER or any action at law or in equity arising out of or relating to these agreement or transaction shall be filed only in the Competent Courts of Bangalore alone and the customer hereby agrees, consents and submits to the jurisdiction of such courts for the purpose of litigating any such action.</p>
+          </div>
+      </div>
+        </Container>
+      <div>
+        <FormComponent tag={tag} />
+      </div>
+      <div>
+        <div className='capitalRiskTitle'>
+          <h2>Capital @ Risk</h2>
+          <h5>With investment, your capital is at risk. The value of your portfolio can go down as well as up and you may get back less than you invest or earn more higher return depend on the market. A Stock, Commodity & Currency may not be right fit for everyone. Investing/Trading is subject to market risk. Please read all the documents before investing.</h5>
+        </div>
+      </div>
+      <div>
+        <FormComponent tag={tag} />
+      </div>
+      <div>
+        <Disclaimer />
+      </div>
+      <div>
+        <FooterPage />
+      </div>
+    </div>
+  )
+}
+
+export default DisclaimerPage

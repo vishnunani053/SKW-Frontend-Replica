@@ -1,0 +1,556 @@
+@media only screen and (max-width: 575px) {
+  /* Styles for screens up to 480px wide (mobile) */
+
+  .forContainerPadding{
+    padding-inline: 0rem;
+  }
+
+  .logo {
+    width: 200px;
+    height: 60px;
+    margin-left: 2px;
+  }
+  .formMainContainer {
+    width: 95%;
+  }
+  .formMainContainer {
+    padding: 2rem 0.25rem;
+  }
+  .footer {
+    padding-inline: 20px;
+  }
+  .width50 {
+    width: 50%;
+  }
+  .mobile-nav {
+    position: static !important;
+  }
+
+  .navbarMobile {
+    gap: 2px !important;
+  }
+  .navbar-collapse {
+    padding-inline: 1rem;
+  }
+
+  .bodyContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .nameContainer {
+    padding-inline: 10px;
+  }
+  .getFinancial {
+    padding:0;
+    margin: 0;
+  }
+
+  .getFinancial h1 {
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: #30344d;
+    text-align: center;
+    margin: 15px 5px;
+  }
+
+  .getFinancial h2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e99004;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .getFinancial ul {
+    list-style-type: square;
+    color: #e99004;
+    margin: 5px;
+  }
+
+  .getFinancial ul h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #30344d;
+  }
+
+  .hireButtonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .hireButton {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #30344d;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    border-radius: 50px;
+    border-color: #e99004;
+    border-width: 8px;
+    padding: 8px;
+    margin-top: 10x;
+    white-space: nowrap;
+  }
+
+  .hireButton:hover {
+    background-color: white;
+    color: black;
+  }
+  .imgMain {
+    display: none;
+  }
+
+  .download {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .androidImg {
+    width: 250px;
+    margin: 15px 45px;
+  }
+  .appleImg {
+    display: none;
+  }
+
+  .offerContainer {
+    background-color: #e9e9e9;
+    padding: 10px;
+  }
+
+  .offerContainer center h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #30344d;
+  }
+  .termImagesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 10px;
+  }
+
+  .termNameContainer h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #30344d;
+    text-align: center;
+  }
+
+  .termImages:hover {
+    background-color: orange;
+  }
+
+  .tradeMainContainer {
+    background-color: #172147;
+    padding: 50px;
+  }
+  .whyTraders h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .tradeImagesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-inline: auto;
+    padding-top: 0px;
+    margin: 0px 0px;
+  }
+
+  .tradeSubContainet {
+    border-color: #ffffff;
+    border-radius: 5px;
+    border-width: 2px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    width: 330px;
+    height: 180px;
+    margin: 1rem 0px;
+  }
+
+  .tradeImages {
+    background-color: white;
+    width: 100px;
+  }
+  .tradeFont {
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .mainHowWorksContainer {
+    padding: 1.5rem;
+  }
+
+  .howHeader h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #30344d;
+    text-align: center;
+  }
+
+  .howWorksImgcontainer {
+    gap: 1rem !important;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 0rem;
+  }
+
+  .howImgSubContainer {
+    border-color: #000000;
+    border-radius: 5px;
+    border-width: 1px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    max-height: 250px;
+  }
+
+  .howImages {
+    width: 400px;
+  }
+  .howWorkFont {
+    font-size: 20px;
+    font-weight: bold;
+    color: #30344d;
+    text-align: center;
+  }
+
+  .howWorkFont:hover {
+    color: #e99004;
+  }
+
+  .disclamiar h1 {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .disclamiar p {
+    padding-inline: 0px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .footerLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .addresssDetails {
+    text-align: center;
+  }
+
+  .mainFooter {
+    background-color: #30344d;
+    color: white;
+  }
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .headings {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .footer p {
+    margin-bottom: 0;
+    padding: 5px;
+  }
+
+  .footer p:hover {
+    color: #e99004;
+  }
+
+  .socialMedia {
+    margin: 10px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+  }
+  .MainMagicContainer {
+    padding: 1rem 1rem;
+  }
+  .magicMomentstitle {
+    display: flex;
+    justify-content: center;
+  }
+  .magicMomentstitle h1 {
+    font-size: 40px;
+    color: #30344d;
+  }
+
+  .sampleMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .sampleContainer {
+    width: 100%;
+  }
+
+  .marqueeData p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .magicIntro {
+    padding: 0.25rem 0rem;
+  }
+  .aboutContainer {
+    padding-inline: 1.5rem;
+  }
+  .aboutBreadCrumb {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .aboutCarousel {
+    display: none;
+  }
+
+  .overviewHeading h5 {
+    padding-top: 0rem;
+  }
+  .aboutParagraph p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .formcontainer {
+    margin-top: 1rem;
+  }
+  .templetContainer {
+    display: none;
+  }
+  .researchParas {
+    padding: 1rem 0rem;
+  }
+  .researchMainContainer {
+    padding: 2rem 0rem;
+  }
+
+  .tradingPrinciples {
+    background: #f2f2f2;
+    padding: 0rem 1.5rem;
+  }
+  .tradingPrinciplesRow h3 {
+    margin-top: 1rem;
+  }
+
+  .pngContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: auto;
+  }
+  .researchForPadding{
+    padding-inline: 0rem;
+  }
+  .tradingPrinciplebg{
+    padding-inline: 0rem;
+  }
+  .equityMainContainer {
+    padding: 0rem 1rem;
+  }
+
+  .titleofInvestment {
+    padding: 0rem 1rem;
+  }
+  .outdatedContainer {
+    padding: 0rem 1rem;
+  }
+  .rpmMainContainer {
+    margin: 2.5rem 1rem;
+  }
+  .investorUl {
+    list-style-type: square;
+    color: #e99004;
+    padding: 0px 1px 0px 20px;
+  }
+  .investorContainer h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #30344d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    text-align: auto;
+  }
+  .investorUl li h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .forMobileUlInvestCharter {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  .investorUl p {
+    font-size: 15px;
+    color: #000000;
+    padding: 0 0.5rem;
+    text-align: justify;
+  }
+  .annualMainContainer {
+    padding: 1rem 1.5rem;
+  }
+  .annualtitle h1 {
+    font-size: 36px;
+  }
+  .annualtitle h4 {
+    font-size: 16px;
+    text-align: start;
+  }
+  .complaintFormContainer {
+    margin: 0rem 1rem;
+    padding: 0rem 0.25rem;
+    box-shadow: none;
+  }
+
+  .annualList ul {
+    list-style-type: square;
+    padding: 0;
+    padding-left: 1rem;
+  }
+  .joiningContainer {
+    padding: 1.5rem 1rem;
+  }
+  .joiningTitle h1 {
+    font-size: 2rem;
+  }
+  .step2Container {
+    padding: 1.5rem 1rem;
+    border-bottom: #000000 1px solid;
+  }
+
+  .faqContainer {
+    padding: 1rem 1rem;
+  }
+  .blogsMainContainer {
+    padding: 0rem 1rem;
+  }
+  .blogContainer {
+    margin-inline: 1px;
+  }
+  .blogImg {
+    width: 500px;
+    height: 250px;
+  }
+  .carrersContainer {
+    padding: 1rem 1rem;
+  }
+  .careerformContainer {
+    margin-inline: 0.5rem;
+    padding: 1rem;
+    box-shadow: #e9e9e9 1px 5px 5px 5px;
+  }
+  .careerTableContainer {
+    margin-top: 1.5rem;
+    padding-inline: 0.25rem;
+  }
+  .forMobileNotShow {
+    display: none;
+  }
+  .careersTitle p {
+    text-align: justify;
+  }
+  .moreMainContainer {
+    padding: 0.5rem 1rem;
+  }
+  .complaintScorebtns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 1.25rem;
+    gap: 1rem;
+  }
+  .contactContainer {
+    padding: 1rem 1rem;
+  }
+  .quickCardDetails {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #e4e3e3 2px 2px 2px 2px;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem;
+    height: 195px;
+    text-align: center;
+  }
+  .quickCardDetails p {
+    margin-bottom: 0;
+  }
+  .bankDetailsContainer {
+    padding: 2rem 1rem;
+  }
+  .paymentImg {
+    margin: 1rem 1px;
+  }
+  .step3Container {
+    padding: 2rem 1rem;
+    border-bottom: #000000 1px solid;
+  }
+  .discalimerContainer {
+    padding: 2.5rem 1rem;
+  }
+
+  .capitalRiskTitle {
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+
+  .cardsContainer {
+    height: 320px;
+  }
+
+  .cardsubContainer {
+    height: 300px;
+  }
+
+  .forShadow {
+    padding: 1rem;
+    margin-inline: 0.5rem;
+  }
+
+
+
+
+
+  
+}

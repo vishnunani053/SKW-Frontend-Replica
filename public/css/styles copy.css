@@ -1,0 +1,1503 @@
+.marqTxt h1 {
+  font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #172147;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+color: #e99004;
+}
+.dropdown-item:hover{
+  color: #fff;
+  background-color: #30344d;
+}
+.dropdown-toggle::after{
+  content: none;
+}
+
+.carousel .thumbs-wrapper {
+  display: none;
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  margin-left: 75px;
+}
+
+.navbarContainer {
+  border-bottom: 1px solid #7777774d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navLink {
+  color: #172147;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #e99004;
+}
+
+.callButton {
+  background: #3fa005;
+  color: white;
+  white-space: nowrap;
+  padding: 10px;
+}
+.callButton:hover {
+  background-color: #172147;
+  color: white;
+}
+
+.dataFlow {
+  border-bottom: 1px solid #7777774d;
+  padding: 8px;
+}
+
+.dataFlow h1 {
+  font-size: 1rem;
+}
+
+.bodyContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.imgMain {
+  width: 30%;
+}
+.bodyImg {
+  width: 500px;
+
+  margin-right: 50px;
+}
+.nameContainer {
+width: 70%;
+  padding-inline: 150px;
+}
+
+.getFinancial h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #30344d;
+}
+
+.getFinancial h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #e99004;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.getFinancial ul {
+  list-style-type: square;
+  color: #e99004;
+  margin: 30px;
+}
+
+.getFinancial ul h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #30344d;
+}
+
+.hireButtonContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  white-space: nowrap;
+}
+
+.hireButton {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #30344d;
+  color: white;
+  font-size: 23px;
+  font-family: sans-serif;
+  border-radius: 50px;
+  border-color: #e99004;
+  border-width: 8px;
+  padding: 10px;
+  margin-top: 10x;
+  white-space: nowrap;
+}
+
+.fa-icon {
+  font-size: 2rem; /* Adjust the size as needed */
+}
+.hireButton:hover {
+  background-color: white;
+  color: black;
+}
+.download {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+.androidImg {
+  width: 120px;
+}
+.appleImg {
+  width: 120px;
+}
+
+.offerContainer {
+  background-color: #e9e9e9;
+  padding: 50px;
+}
+
+.offerContainer center h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #30344d;
+}
+.termImagesContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 200px;
+}
+
+.termNameContainer h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #30344d;
+  text-align: center;
+}
+
+.termImages {
+  width: 400px;
+}
+
+.termImages:hover {
+  background-color: #e99004;
+}
+
+.tradeMainContainer {
+  background-color: #172147;
+  padding: 50px;
+}
+
+.whyTraders h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tradeImagesContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-inline: 100px;
+  padding-top: 50px;
+}
+
+.tradeSubContainet {
+  border-color: #ffffff;
+  border-radius: 5px;
+  border-width: 2px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  width: 353px;
+  height: 190px;
+}
+
+.tradeImages {
+  background-color: white;
+  width: 100px;
+}
+
+.tradeFont {
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+}
+
+.mainHowWorksContainer {
+  padding: 50px;
+}
+
+.howHeader h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #30344d;
+  text-align: center;
+}
+
+.howWorksImgcontainer {
+  gap: 1rem !important;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 100px;
+}
+
+.howImgSubContainer {
+  border-color: #000000;
+  border-radius: 5px;
+  border-width: 1px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  width: 260px;
+  height: 260px;
+}
+
+.howImages {
+  width: 200px;
+}
+.howWorkFont {
+  font-size: 20px;
+  font-weight: bold;
+  color: #30344d;
+  text-align: center;
+}
+
+.howWorkFont:hover {
+  color: #e99004;
+}
+
+.needHelpContainer {
+  background-color: #30344d;
+  padding: 1rem;
+}
+
+.needHelpHeader h1 {
+  font-size: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.formMainContainer {
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding: 2rem;
+}
+
+.testimonialContent {
+  margin-inline: 0.25rem;
+  padding: 1.25rem;
+  background: #ffffff;
+}
+.testimonialContent h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: start;
+}
+.testimonialContent p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  text-align: start;
+}
+
+.sliderContainer {
+  padding-top: 3rem;
+}
+
+.disclamiar h1 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.disclamiar p {
+  padding-inline: 170px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainFooter {
+  background-color: #30344d;
+  color: white;
+}
+/* .footerLogo{
+  width: 200px;
+  height: 60px;
+ margin: 20px 120px;
+} */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-inline: 120px;
+  text-align: left;
+  font-size: small;
+}
+
+.headings {
+  font-size: 22px;
+  font-weight: bold;
+}
+.footer p {
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.footer p:hover {
+  color: #e99004;
+}
+
+.socialMedia {
+  margin: 10px;
+  display: flex;
+  gap: 5px;
+  /* justify-content: space-around; */
+}
+.productList {
+  padding: 1rem;
+  padding-bottom: 1px;
+}
+
+.productList p {
+  text-align: start;
+}
+
+.sliderImages {
+  width: 780px;
+  height: 385px;
+}
+
+.aboutContainer {
+  padding-inline: 10rem;
+}
+
+.aboutBreadCrumb {
+  padding: 1rem 10rem;
+}
+.overviewHeading h5 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 1rem;
+  text-align: justify;
+}
+
+.aboutParagraph p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.formcontainer {
+  border-color: #ffffff;
+  box-shadow: 2px 2px 5px 5px #ddd8d8;
+  border-radius: 1px;
+  border-width: 2px;
+  padding: 1rem;
+}
+.submitButton {
+  width: 100%;
+  background-color: #30344d;
+}
+
+.missionList ul {
+  list-style-type: square;
+  color: #e99004;
+  justify-content: start;
+  padding-left: 10px;
+}
+.missionList ul li p {
+  color: #000000;
+}
+
+.listContainer {
+  padding-top: 4rem;
+}
+.researchMainContainer {
+  padding:2rem 12rem;
+} 
+
+.researchTemplet {
+  width: 1140px;
+  height: 296px;
+}
+
+.researchTitle h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.templetContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.researchParas {
+  padding: 2rem 0rem;
+}
+
+.subParas h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.subParas p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.tradingPrinciples {
+  background: #f2f2f2;
+  padding: 3rem 11rem;
+}
+
+.tradingPrinciplesRow h3 {
+  font-size: 2rem;
+  color: #172147;
+  font-weight: bold;
+}
+
+.tradingPrincipleslist {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.tradingPrincipleslist h6 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.5rem 0.75rem;
+}
+
+.tradingPng {
+  width: 3rem;
+  height: 3rem;
+}
+
+.pngContainer {
+  display: flex;
+  justify-content: start;
+  padding: 0.5rem;
+}
+.signalBars {
+  width: 1rem;
+  height: 1rem;
+}
+.equityMainContainer {
+  padding: 0rem 10rem;
+}
+
+.equityMainContainer h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cardsContainer {
+  padding: 1rem 1rem;
+  text-align: justify;
+  box-shadow: #f4efef 5px 5px 5px 5px;
+  margin: 1rem 0.25rem;
+  height: 300px;
+}
+
+.cardsContainer h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.cardsContainer Button {
+  background-color: #3fa005;
+  border-radius: 2rem;
+}
+
+.coloums :hover {
+  background-color: #30344d;
+  color: #ffffff;
+}
+
+.coloums Button:hover {
+  background-color: #e99004;
+}
+.coloums {
+  border-radius: 1rem;
+}
+
+.cardsMainContainer {
+  padding: 1rem 0rem;
+}
+
+.titleofInvestment {
+  padding: 0rem 10rem;
+}
+
+.titleofInvestment h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.outdatedContainer {
+  padding: 0rem 10rem;
+}
+
+.outdateTitle h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.outdatedCardsContainer {
+  /* padding: 1rem 1rem; */
+  text-align: justify;
+  padding: 1rem;
+}
+
+.cardsubContainer {
+  /* padding: 1rem; */
+
+  box-shadow: #f4efef 5px 5px 5px 5px;
+  margin: 1rem 0.25rem;
+  height: 273px;
+  
+}
+.cardsubContainer div p {
+  margin-bottom: 0px;
+}
+
+.outdatedCardsContainer h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.outdatedPngs {
+  width: 5rem;
+  height: 5rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+
+.outdatedPngs:hover {
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: end;
+}
+
+.magicMomentstitle {
+  display: flex;
+  justify-content: center;
+}
+.marqueeData {
+  height: 38px;
+  background-color: #696969;
+  padding-top: 0.5rem;
+}
+.marqueeData p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
+.magicMomentstitle h1 {
+  font-size: 65px;
+  color: #30344d;
+}
+
+.MainMagicContainer {
+  padding: 0.5rem 12rem;
+}
+
+.whatugetContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.magicIntro {
+  padding: 0.5rem 0rem;
+}
+
+.PricingbtnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.5rem;
+}
+
+.pricingBtn {
+  padding: 0.5rem;
+  background-color: #e99004;
+  border-radius: 5px;
+  font-size: 1.25rem;
+}
+
+.pricingTitle h3 {
+  text-align: center;
+  font-family: arima Madurai sanserif;
+  color: #3fa005;
+  font-size: 40px;
+}
+.pricingFooter p {
+  font-size: 13px;
+  text-align: center;
+  border-bottom: #000000 1px solid;
+}
+
+.sampleMainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sampleContainer {
+  width: 33%;
+}
+
+.requestcallMainContainer {
+  background: #30344d;
+  padding: 1rem;
+  margin: 1rem 0rem;
+}
+.requestcallTitle h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+}
+.requestFormContainer {
+  margin-top: 1rem;
+}
+/* .requestRows {
+  padding: 0.25rem;
+} */
+
+.riskMainContainer {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+}
+
+.risktitle h3 {
+  font-size: 40px;
+  color: #3fa005;
+  text-align: center;
+}
+
+.riskFooter p {
+  font-size: 13px;
+  border-bottom: #000000 1px solid;
+}
+
+.marketAnalyisContainer {
+  margin: 1rem 0rem;
+}
+
+.marketAnalysisTitle h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #3fa005;
+}
+
+.marketIcons {
+  width: 55px;
+  height: 55px;
+  color: #e99004;
+}
+
+.marketSubcontainers {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: #000000 1px solid;
+  padding: 0.5rem;
+  margin: 0.75rem 0rem;
+  border-radius: 0.5rem;
+}
+
+.marketSubcontainers:hover {
+  border: #3fa005 2px solid;
+  border-radius: 0.5rem;
+}
+
+.rpmMainContainer {
+  margin: 2.5rem 12rem;
+}
+.rpmContainer {
+  border-bottom: #000000 1px solid;
+}
+
+.rpmContainer h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #30344d;
+}
+
+.rpmContainer p {
+  text-align: justify;
+  font-size: 15px;
+  color: #30344d;
+}
+
+.rpmContainer h6 {
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 1rem;
+  margin: 2rem 0rem;
+  text-align: justify;
+}
+.rpmContainer h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 0rem;
+  color: #30344d;
+}
+
+.spanText {
+  font-size: 15px;
+  font-weight: 400;
+  color: #30344d;
+}
+
+.inlineSpantag {
+  font-weight: 700;
+}
+
+.riskbasedContainer {
+  padding: 1rem 0rem;
+  border-bottom: #000000 1px solid;
+}
+.riskbasedContainer h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #30344d;
+}
+
+.Risktable {
+  margin-top: 1rem;
+}
+
+.tableHead {
+  background-color: #30344d;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tableHead th {
+  color: #ffffff;
+  padding: 0.75rem;
+}
+
+.tableBody {
+  background-color: #e99004;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tableBody td {
+  color: #fff;
+  padding: 0.75rem;
+}
+.tableBody th {
+  color: #fff;
+}
+.formrpmScoreContainer {
+  margin: 2.5rem 0rem;
+  padding: 1rem 1.75rem;
+  box-shadow: #efeded 5px 5px 5px 5px;
+}
+.formrpmScoreContainer h1 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.formQuestion {
+  font-size: 18px;
+  columns: #515151;
+  margin-top: 1.5rem;
+}
+.formLabel {
+  font-size: 18px;
+  font-weight: 700;
+  color: #515151;
+  line-height: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.formDeclaration {
+  padding: 3rem 0rem;
+}
+.formDeclaration h6 {
+  font-size: 20px;
+  color: #515151;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.declarationText {
+  font-size: 18px;
+  font-weight: 700;
+  color: #515151;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+
+.submitDetailsbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.submitDetailsbtn Button {
+  background-color: #457ead;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  height: 42px;
+  width: 200px;
+}
+
+.formDeclaration h4 {
+  font-size: 29px;
+  font-family: "Times New Roman", Times, serif;
+  color: #666666;
+  padding-top: 2rem;
+}
+
+.investorContainer h1 {
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  color: #222222;
+
+}
+
+.investorContainer h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #30344d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align:auto;
+}
+
+.investorUl {
+  list-style-type: square;
+  color: #e99004;
+  padding: 0px 20px;
+}
+.investorContainer p {
+  padding-inline: 3.25rem;
+  /* margin: 0; */
+  font-size: 15px;
+}
+
+.investorUl li h3 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000000;
+  padding-inline: 1rem;
+}
+
+.investorUl p {
+  font-size: 15px;
+  color: #000000;
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+.detailsUl {
+  list-style-type: square;
+  color: #e99004;
+  padding: 0px 0px 0px 20px;
+}
+.detailsUl p {
+  color: #000000;
+  padding: 0.5rem 0rem;
+  margin: 0;
+}
+
+.detailsPara p {
+  padding: 0;
+  text-align: justify;
+}
+.do-dontList {
+  list-style-type: square;
+  padding-left: 1rem;
+  color: #e99004;
+}
+
+.do-dontList li {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.do-dontList ul li p {
+  text-align: justify;
+  padding-inline: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.moreMainContainer {
+  padding: 0.5rem 12rem;
+}
+
+.titleOfMore {
+  text-align: center;
+  padding: 1rem;
+}
+.titleOfMore h1 {
+  font-size: 39px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #30344d;
+}
+.titleOfMore h4 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #30344d;
+}
+
+.monthendingContainer h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #30344d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.moreTableHead {
+  background-color: #30344d;
+  text-align: center;
+}
+.moreTableHead tr th {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.moreTableBody {
+  text-align: center;
+}
+
+.complaintFormContainer {
+  margin: 1rem 12rem;
+  padding: 1rem 2rem;
+  box-shadow: #666666 5px 5px 0.75rem;
+}
+
+.complaintFormTitle h1 {
+  font-size: 23px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.complaintFormTitle p {
+  font-size: 14px;
+  color: #666666;
+}
+
+input,
+input::placeholder {
+  font-size: 14px;
+  font-family: "Arima Madurai sans-serif";
+}
+
+.complaintScorebtns {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 16rem;
+}
+.complaintScorebtns Button {
+  background-color: #172147;
+  font-size: 14px;
+  font-weight: 700;
+  border-width: 0;
+}
+
+.complaintScorebtns Button:hover {
+  background-color: #e99004;
+}
+.annualMainContainer {
+  padding: 1.5rem 13rem;
+}
+
+.annualtitle {
+  text-align: center;
+}
+.annualtitle h1 {
+  font-size: 39px;
+  font-weight: 600;
+  color: #30344d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.annualtitle h4 {
+  padding: 1rem 0rem;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 700;
+  color: #172147;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.annualList ul {
+  list-style-type: square;
+  padding: 0.75rem 0rem;
+  padding-left: 1rem;
+}
+.annualList ul li {
+  color: #e99004;
+}
+
+.annualList ul li p {
+  font-size: 13px;
+  color: #000000;
+}
+
+.annualTableHead {
+  background-color: #30344d;
+  text-align: center;
+}
+.annualTableHead tr th {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.annualTableBody {
+  text-align: center;
+}
+
+.annualTableBody tr td {
+  font-size: 14px;
+}
+
+.annualScorebtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.annualScorebtns Button {
+  background-color: #172147;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 1rem;
+  border-width: 0;
+}
+
+.annualScorebtns Button:hover {
+  background-color: #e99004;
+}
+
+.joiningContainer {
+  padding: 2.5rem 13rem;
+}
+
+.joiningTitle h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222222;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.stepsContainer {
+  padding: 1rem 1rem;
+  text-align: center;
+}
+.stepsContainer h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222222;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.stepsContainer p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #00000080;
+  margin-left: 0.5rem;
+}
+.forBorder {
+  border-bottom: #000000 1px solid;
+}
+
+.step2Container {
+  padding: 3rem 13rem;
+  border-bottom: #000000 1px solid;
+}
+
+.step3Container {
+  padding: 2rem 13rem;
+  border-bottom: #000000 1px solid;
+}
+
+.greetings {
+  padding: 2rem;
+  text-align: center;
+}
+.greetings h2 {
+  color: #111c4e;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.faqContainer {
+  padding: 1rem 12rem;
+}
+.faqTitle {
+  padding: 2.5rem 0rem;
+}
+
+.faqTitle h1 {
+  color: #30344d;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.blogsMainContainer {
+  padding: 0rem 2rem;
+}
+
+.blogContainer {
+  margin-inline: 10rem;
+}
+.blogTitle h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222222;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.blogDetails {
+  padding-inline: 0.25rem;
+}
+
+.blogDetails h4 {
+  font-size: 30px;
+  color: #30344d;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.blogDetails p {
+  font-size: 13px;
+  color: #848484;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 1rem 0rem;
+}
+.blogDetails a {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.blogDetails a:hover {
+  text-decoration: underline;
+  /* color: #000000; */
+}
+
+.blogCardContainer {
+  padding: 0.7rem;
+  box-shadow: #ebe9e9 2px 2px 15px 5px;
+  margin-bottom: 3rem;
+}
+.blogImg {
+  width: 530px;
+  height: 380px;
+}
+
+.forBackground {
+  background: #e99004;
+  color: white;
+  padding: 0.25rem 0.5rem;
+}
+
+.forBackground:hover {
+  background: #ba8b3a;
+  color: white;
+  text-decoration: underline;
+}
+
+.loadMoreBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.loadMoreBtn Button {
+  border: none;
+  background: #111c4e;
+  color: #fff;
+}
+.carrersContainer {
+  padding: 1rem 10rem;
+}
+.careersTitle p{
+  text-align: justify;
+}
+.careersTitle h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #30344d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.benifitsRewardsContainer {
+  padding: 3rem 0rem;
+}
+.benifitsSummary h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.benifitsSummary p {
+  text-align: justify;
+}
+
+.careerformContainer {
+  margin-inline: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: #edecec 1px 5px 5px 5px;
+}
+
+.discalimerContainer {
+  padding: 2.5rem 12rem;
+}
+
+.disclaimerTitle h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222222;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.disclaimerTitle p {
+  text-align: justify;
+  font-size: 15px;
+}
+.capitalRiskTitle {
+  padding: 1.5rem 16rem;
+  text-align: center;
+}
+
+.capitalRiskTitle h2 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.capitalRiskTitle h5 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.disclosureList li {
+  list-style-type: square;
+  color: #e99004;
+}
+
+.disclosureList li p {
+  color: #000000;
+  text-align: justify;
+}
+
+.refundPolicyList h6 {
+  color: #30344d;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: justify;
+  padding-top: 1rem;
+  line-height: 1.5rem;
+}
+.refundPolicyList h6 a {
+  color: #e99004;
+}
+.refundPolicyList h6 a:hover {
+  text-decoration: underline;
+}
+.refundTableHead {
+  background: #30344d;
+}
+.refundTableHead tr th {
+  color: #fff;
+  text-align: left;
+  padding-inline: 1.5rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.refundTableBody tr td {
+  padding-inline: 1.5rem;
+}
+.contactContainer {
+  padding: 1rem 12rem;
+}
+.contactTitle h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #30344d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.contactTitle p {
+  color: #444444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.quickCardTitle h2 {
+  color: #3fa005;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Arima Madurai sans-serif";
+  text-align: center;
+}
+.quickCardDetails {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #e4e3e3 5px 5px 5px 5px;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+  height: 195px;
+}
+.quickCardDetails p {
+  margin-bottom: 0;
+}
+
+/* .quickCardDetails:hover{
+  background: #30344d;
+
+} */
+.quickCardIcon {
+  width: 300px;
+  height: 75px;
+}
+/* .quickCardIcon:hover{
+  color: #fff;
+} */
+
+.addressTitle h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #30344d;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+}
+.addressDetails {
+  padding: 1rem 2rem;
+  line-height: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+.addressDetails h3 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.addressDetails h4 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.addressDetails p {
+  font-weight: 300;
+  font-size: 14px;
+}
+.bankDetailsContainer {
+  padding: 2rem 12rem;
+}
+
+.bankdetailsTitle p {
+  background: #fcf8e3;
+  color: #8a6d3b;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding: 1rem;
+  text-align: justify;
+}
+.paymentImg {
+  border-radius: 2em 1em 4em / 0.5em 3em;
+}
+
+.form-select{
+color: #515151;
+font-size: 14px;
+font-family: 'madurai'
+}
+
+.dropdown-item {
+
+	padding: .5rem 2rem !important;
+}
+
+/* .joiningVideo{
+  width: 1100px !important;
+  height: 700px !important;
+
+} */

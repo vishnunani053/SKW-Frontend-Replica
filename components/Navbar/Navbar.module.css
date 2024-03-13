@@ -1,0 +1,243 @@
+ .logo {
+  width: 200px;
+  height: 60px;
+}
+.navbarContainer {
+  border-bottom: 1px solid #7777774d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+} 
+ .nav_links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+} 
+.links{
+  color: #172147;
+  font-weight: 600;
+  text-decoration: none;
+} 
+.nav_links :hover {
+  color: #e99004;
+} 
+.callButton {
+  background: #3fa005;
+  color: white;
+}
+.callButton:hover {
+  background-color: #172147;
+  color: white;
+} 
+.dataFlow {
+  border-bottom: 1px solid #7777774d;
+  padding: 8px;
+} 
+
+ .bodyContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.imgMain {
+  width: 30%;
+}
+.bodyImg {
+  width: 500px;
+
+  margin-right: 50px;
+}
+.nameContainer {
+  width: 70%;
+  padding-inline: 150px;
+}
+.hireButtonContainer{
+  display: flex;
+  align-items: center;
+} 
+.hireButton {
+  display: flex;
+  justify-content: space-between;
+  background-color: #30344d;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  border-radius: 50px;
+  border-color: #e99004;
+  border-width: 8px;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+.hireButton:hover {
+  background-color: white;
+  color: black;
+}
+.download {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+.androidImg {
+  width: 120px;
+}
+.appleImg {
+  width: 120px;
+}
+
+.offerContainer {
+  background-color: #e9e9e9;
+  padding: 50px;
+}
+
+.termImagesContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 200px;
+}
+.termImages {
+  width: 400px;
+}
+
+.termImages:hover {
+  background-color: #e99004;
+}  
+
+.tradeMainContainer {
+  background-color: #172147;
+  padding: 50px;
+}
+
+.tradeImagesContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-inline: 130px;
+  padding-top: 50px;
+}
+
+.tradeImages {
+  background-color: white;
+  width: 100px;
+}
+.mainHowWorksContainer {
+  padding: 50px;
+}
+
+.howWorksImgcontainer {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 100px;
+}
+
+.howImages {
+  width: 200px;
+}
+.howWorkFont {
+  font-size: 20px;
+  font-weight: bold;
+  color: #30344d;
+  text-align: center;
+}
+
+.howWorkFont:hover {
+  color: #e99004;
+}
+
+.needHelpContainer {
+  background-color: #30344d;
+  padding: 1rem;
+}
+
+.formMainContainer {
+  /* padding-top: 1rem;
+  padding-bottom: 4rem; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+.testimonialContent {
+  padding: 1.25rem;
+  background: #ffffff;
+}
+.testimonialContent h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: start;
+}
+.testimonialContent p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  text-align: start;
+}
+
+.sliderContainer {
+  padding-top: 3rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  /* Styles for screens up to 1200px wide */
+
+  .bodyContainer {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .imgMain {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .bodyImg {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .nameContainer {
+    width: 100%;
+    padding-inline: 20px;
+  }
+  .hireButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  /* ... (adjust other styles as needed) */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Styles for screens up to 768px wide (tablets) */
+  .nameContainer h1 { 
+    font-size: 2rem !important;
+  }
+  /* ... (adjust styles accordingly) */
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for screens up to 480px wide (mobile) */
+
+  .marqTxt {
+    display: none; /* Hide the marquee on smaller screens */
+  }
+
+  .bodyContainer {
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .nameContainer {
+    padding-inline: 10px; /* Adjust padding for smaller screens */
+  }
+
+  /* ... (adjust other styles as needed) */
+}

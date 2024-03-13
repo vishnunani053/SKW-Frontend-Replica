@@ -1,0 +1,32 @@
+.mainFooter {
+  background-color:#30344D;
+  color: white;
+
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-inline: 200px;
+  text-align: left;
+  font-size: small;
+}
+
+.headings {
+  font-size: 22px;
+  font-weight: bold;
+}
+.footer p{
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.footer p:hover{
+  color:#E99004;
+}
+
+.socialMedia{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
